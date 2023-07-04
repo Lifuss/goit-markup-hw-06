@@ -438,16 +438,29 @@
           </ul>
         </div>
         <div class="footer-form">
-          <span class="social-title">Subscribe</span>
-          <label for=""></label>
-          <input type="text" />
-          <button type="button"></button>
+          <span class="social-title footer-subscribe">Subscribe</span>
+          <form class="subscribe-form" ="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="subscribe-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn button" type="submit">
+              <span class="btn-text">Subscribe</span>
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
 
     <!-- Modal -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button
           class="modal-btn"

@@ -871,6 +871,7 @@ p {
 .modal-form-agreement-check:checked
   + .modal-form-agreement
   .modal-form-agreement-desc {
+  display: flex;
   background-color: var(--hover-color);
   border: none;
   fill: var(--light-mode-bg);

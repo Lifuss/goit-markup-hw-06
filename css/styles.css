@@ -500,16 +500,23 @@ p {
   height: 40px;
   padding: 8px 16px;
 
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-on-blue-theme);
+
   background-color: transparent;
   outline: transparent;
 
   border-radius: 4px;
   border: 1px solid var(--color-on-blue-theme);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-input::placeholder {
-  color: var(--color-on-blue-theme);
+  color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
@@ -518,6 +525,7 @@ p {
 .subscribe-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   padding: 8px 24px;
 

@@ -231,8 +231,6 @@ p {
   color: var(--color-on-blue-theme);
 
   margin: 0 auto 48px;
-  /* margin-bottom: 48px;
-  margin-top: 0; */
 }
 
 .button {
@@ -526,13 +524,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   padding: 8px 24px;
 
   min-width: 165px;
   height: 40px;
 }
-.button {
+.subscribe-icon {
+  margin-left: 16px;
 }
 /* ==================/FOOTER================== */
 
@@ -863,7 +861,7 @@ p {
   border-radius: 2px;
   fill: transparent;
 
-  transition: blackground-color var(--transition), border var(--transition),
+  transition: background-color var(--transition), border var(--transition),
     fill var(--transition);
 }
 

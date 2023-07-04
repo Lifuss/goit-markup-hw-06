@@ -838,9 +838,9 @@ p {
   margin-bottom: 24px;
 }
 .modal-form-agreement {
-  display: inline-flex;
+  /* display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px; */
 
   color: var(--clients-color);
   font-size: 12px;
